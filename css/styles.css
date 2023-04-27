@@ -1,0 +1,167 @@
+:root {
+	--primary-brand-color:#4D5AE5;
+	--pressed-state-color:#404BBF;
+	--dark-color:#2E2F42;
+	--success-color:#31D0AA;
+	--text-color:#434455;
+	--subtle-text-color:#8E8F99;
+	--accent-color:#E7E9FC;
+	--light-color:#F4F4FD;
+	--modal-ovarlay-color:#2E2F42;
+	--hero-background-color:#2E2F42;
+	--white-background-color:#FFFFFF;
+	--modal-background-color:#FCFCFC;
+	--main-font-family:'Roboto', sans-serif;
+	--secondary-font-family:'Raleway', sans-serif;
+	--title-font-size:56px;
+	--title-font-weight:700;
+	--title-letter-spacing:2%;
+	--title-line-height:1.07;
+	--second-title-font-size:36px;
+	--second-title-font-weight:700;
+	--second-title-letter-spacing:2%;
+	--second-title-line-height:1.11;
+	--third-title-font-size:20px;
+	--third-title-font-weight:500;
+	--third-title-letter-spacing:2%;
+	--third-title-line-height:1.2;
+	--body-font-size:16px;
+	--body-font-weight:400;
+	--body-letter-spacing:2%;
+	--body-line-height:1.5;
+	--small-text-font-size:12px;
+	--small-text-font-weight:400;
+	--small-text-letter-spacing:4%;
+	--small-text-line-height:1.17;
+	--body-medium-font-size:16px;
+	--body-medium-font-weight:500;
+	--body-medium-letter-spacing:2%;
+	--body-medium-line-height:1.5;
+	--button-text-font-size:16px;
+	--button-text-font-weight:500;
+	--button-text-letter-spacing:4%;
+	--button-text-line-height:1.5;
+	--link-text-font-size:12px;
+	--link-text-font-weight:400;
+	--link-text-letter-spacing:4%;
+	--link-text-line-height:1.33;
+	--link-text-decoration:underline;
+}
+body{
+	font-family: var(--main-font-family);
+	color: var(--text-color);
+	background-color: var(--white-background-color);
+}
+.list{
+	list-style: none;
+}
+.link{
+	text-decoration: none;
+	font-style: normal;
+}
+.btn{
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: var(--button-text-font-weight);
+	font-size: var(--button-text-font-size);
+	line-height: var(--button-text-line-height);
+	letter-spacing: var(--button-text-letter-spacing);
+
+}
+.logo,.main-nav-link{
+	color: var(--dark-color);
+}
+.logo, .logo-footer{
+	font-family: var(--secondary-font-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+}
+.logo-part{
+	color: var(--primary-brand-color);
+}
+.main-nav-link{
+	font-weight: var(--body-medium-font-weight);
+	font-size: var(--body-medium-font-size);
+	line-height: var(--body-medium-line-height);
+	letter-spacing: var(--body-medium-letter-spacing);
+}
+.header-address-link{
+	color:var(--text-color);
+	font-weight: var(--body-font-weight);
+	font-size: var(--body-font-size);
+	line-height: var(--body-line-height);
+	letter-spacing: var(--body-letter-spacing);
+}
+.main-nav-link:active, .header-address-item:first-child>.header-address-link:active	{
+	color: var(--pressed-state-color);
+}
+.main-text{
+	font-weight: var(--body-weight);
+	font-size: var(--body-size);
+	line-height: var(--body-height);
+	letter-spacing: var(--body-spacing);
+	color:var(--text-color);
+}
+.hero{
+	background-color: var(--dark-color);
+	text-align: center;
+	color: #FFFFFF;
+}
+.main-title{
+	font-weight: var(--title-font-weight);
+	font-size: var(--title-font-size);
+	line-height: var(--title-line-height);
+	letter-spacing: var(--title-letter-spacing);
+}
+.hero-btn{
+	background-color: var(--primary-brand-color);
+	color: inherit;
+}
+.hero-btn:hover{
+	background-color: var(--pressed-state-color);
+}
+.hiden{
+	opacity: 0;
+}
+.section-title, .secondary-title{
+	color: var(--dark-color);
+}	
+.secondary-title{
+	font-weight: var(--third-title-font-weight);
+	font-size: var(--third-title-font-size);
+	line-height: var(--third-title-line-height);
+	letter-spacing: var(--third-title-letter-spacing);
+}
+.section-title{
+	font-weight: var(--second-title-font-weight);
+	font-size: var(--second-title-font-size);
+	line-height: var(--second-title-line-height);
+	letter-spacing: var(--second-title-letter-spacing);
+	text-align: center;
+	text-transform: capitalize;
+}
+.team{
+	background-color: var(--light-color);
+	
+}
+.team-item{
+	text-align: center;
+}
+.basement{
+	background-color: var(--dark-color);
+}
+.logo-footer, .logo-footer~.main-text{
+	color: var(--light-color);
+}
+.portfolio-filtr-btn{
+	background-color: var(--light-color);
+	color: var(--primary-brand-color);
+}
+.portfolio-filtr-btn:active{
+	background-color: var(--pressed-state-color);
+	color: #FFFFFF;
+}
+
+
+
