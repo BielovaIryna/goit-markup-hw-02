@@ -57,7 +57,7 @@ body{
 }
 .link{
 	text-decoration: none;
-	font-style: normal;
+	
 }
 .btn{
 	font-family: inherit;
@@ -89,6 +89,9 @@ body{
 	line-height: var(--body-medium-line-height);
 	letter-spacing: var(--body-medium-letter-spacing);
 	
+}
+.page-header-address{
+	font-style: normal;
 }
 .header-address-link{
 	color:var(--text-color);
